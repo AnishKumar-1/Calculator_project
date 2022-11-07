@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <form action="" name="form1">
+        <input class="text" type="text" name="txt"><br>
+        <input type="button" name="ans" value="C" class="one" onclick="form1.txt.value = ''">
+        <input type="button" name="ans" value="()" class="one">
+        <input type="button" name="ans" value="%" class="one" onclick="form1.txt.value += '%'">
+        <input type="button" name="ans" value="/" class="one" onclick="form1.txt.value += '/'"><br>
+        <input type="button" name="ans" value="7" class="one" onclick="form1.txt.value += '7'">
+        <input type="button" name="ans" value="8"class="one" onclick="form1.txt.value += '8'">
+        <input type="button" name="ans" value="9" class="one" onclick="form1.txt.value += '9'">
+        <input type="button" name="ans" value="*" class="one" onclick="form1.txt.value += '*'"><br>
+        <input type="button" name="ans" value="4" class="one" onclick="form1.txt.value += '4'">
+        <input type="button" name="ans" value="5" class="one" onclick="form1.txt.value += '5'">
+        <input type="button" name="ans" value="6" class="one" onclick="form1.txt.value += '6'">
+        <input type="button" name="ans" value="-" class="one" onclick="form1.txt.value += '-'"><br>
+        <input type="button" name="ans" value="1"class="one" onclick="form1.txt.value += '1'">
+        <input type="button" name="ans" value="2" class="one" onclick="form1.txt.value += '2'">
+        <input type="button" name="ans" value="3" class="one" onclick="form1.txt.value += '3'">
+        <input type="button" name="ans" value="+" class="one" onclick="form1.txt.value += '+'"><br>
+        <input type="button" name="ans" value="+/-" class="one" onclick="form1.txt.value += '+/-'">
+        <input type="button" name="ans" value="0" class="one" onclick="form1.txt.value += '0'">
+        <input type="button" name="ans" value="." class="one" onclick="form1.txt.value += '.'">
+        <input type="button" name="ans" value="=" style="background-color: green; color:white;font-weight: bold;" class="one" onclick="form1.txt.value =eval(form1.txt.value)">
+
+    </form>
+</body>
+</html>
